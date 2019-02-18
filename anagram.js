@@ -1,4 +1,4 @@
-function anagram(s1,s2){
+function is_anagram(s1,s2){
 var string1  =s1.toLowerCase();
 var string2  =s2.toLowerCase();
 
@@ -69,6 +69,7 @@ function bubble_Sort(a)
 
 
 
- anagram('Dev','dev');
-
+ 
+  is_anagram('cellar', 'recall');   
+ is_anagram('arm', 'elbow');       
 
